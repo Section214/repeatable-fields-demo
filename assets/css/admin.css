@@ -1,0 +1,16 @@
+.repeatable-demo-remove-repeatable {
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+    padding: 0;
+    overflow: hidden;
+    margin: 8px 0 0 0;
+    text-indent: -9999px;
+    width: 10px;
+    height: 10px;
+}
+.repeatable-demo-remove-repeatable:active,
+.repeatable-demo-remove-repeatable:hover,
+.repeatable-demo-remove-repeatable:focus  {
+    background-position: -10px 0!important;
+}
